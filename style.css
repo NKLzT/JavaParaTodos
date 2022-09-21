@@ -82,17 +82,7 @@ footer{
     position        :   fixed;
     bottom: 2px;
 }
-.lista2{
-    list-style-type: none;
-    justify-content: center;
-    position: fixed;
-    font-size: 16px;
-    top: 47%;
-    left: 800px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Slab', serif;
-}
+
 .come{
     text-decoration: none;
     color: white;
@@ -103,6 +93,28 @@ footer{
     text-align: center;
     margin-left: -500px;
     margin-top: 35px;
+}
+.lista2{
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    position        :   fixed;
+    top             :   310px;
+    right: 35%;
+}
+.t2{
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 150px;
+    position        :   fixed;
+    top             :   200px;
+    left: 10%;
+
 }
 .t1{
     font-size: 16px;
@@ -134,7 +146,6 @@ footer{
     transition: all .2s;
     position: absolute;
 }
-
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -299,4 +310,95 @@ footer{
     font-size: 20px;
     font-weight: 200px;
     margin-left: 50px;
+}
+
+.buttonClass-proximo{
+    font-size:32px;
+    font-family:Verdana;
+    width:168px;
+    height:50px;
+    border-width:1px;
+    color:rgba(253, 251, 251, 1);  
+    background:rgb(248, 66, 66); 
+    margin-left: 750px;
+    text-decoration: none;
+  }
+  .buttonClass-anterior{
+    font-size:32px;
+    font-family:Verdana;
+    width:168px;
+    height:50px;
+    border-width:1px;
+    color:rgba(253, 251, 251, 1);  
+    background:rgb(248, 66, 66); 
+    margin-left: -1000px;
+    text-decoration: none;
+  }
+  
+  .buttonClass:hover {
+    background: rgb(248, 66, 66); 
+  }
+  body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(248, 66, 66);    
+  }
+.img{
+    text-align: center;
+}
+.tabela1{
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 2%;
+    border-color: rgb(241, 100, 100);
+    
+}
+.x{
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    align-content: flex-end;
+}
+.tabela2{
+    align-self: center;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 2%;
+    border-color: rgb(241, 100, 100);
+    
+}
+.block {
+    height: 800px;
+    width: 1000px;
+   }
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.z{
+    position: relative;
 }

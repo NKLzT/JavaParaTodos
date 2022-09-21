@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+         
+         <img class="logo"src="./imagens/226777.png" alt="">
+         <button class="btn2">
+             <p class="header1">Java Para Todos</p>
+         </button>
+     </a>
+     <a href="https://nklzt.github.io/Links-Projeto/" class="contato">
+         Contato
+     </a>
+        </header>
+</body>
+<div>
+    <h2 class="TituloMundo">Variáveis ​​em Java</h2>
+    <p class="mundop">
+        Obtenha uma introdução às variáveis, suas convenções, onde elas são armazenadas na memória e quanto espaço elas ocupam.
+    </p>
+    <h2 class="TituloMundo">Introdução</h2>
+    <p class="mundop">
+        Variáveis ​​são como containers que guardam os valores enquanto o programa é executado.
+    </p>
+    <p class="mundop">
+        <br> As variáveis ​​em Java contem tipagem forte.<br>Portanto,todos eles devem ter um tipo de dado declarado antes de seu nome indicador.<br> Nesta lição, discutiremos identificadores .
+    </p>
+    <h2 class="TituloMundo">Nomeando uma variável</h2>
+    <p class="mundop">
+        Assim como toda pessoa tem um nome que ajuda a identificá-la, toda variável tem um nome associado a ela.<br> Existem certas convenções de nomenclatura que devem ser seguidas para decidir um nome para a variável.<br> Esse nome é chamado de identificador da variável .<br> Os nomes de variáveis ​​devem ser descritivos com base em qual item de dados eles são declarados para armazenar.
+        <br> três regras para criar um identificador:
+        <br>1 - Caracteres de A a Z ,maiusculas ou minúsculas, podem ser usados. (O identificador não pode conter espaços)
+        <br>2 - Podem ser usados ​​números de 0 a 9 . (Uma variável nunca deve começar com um número)
+        <br>3 - Os caracteres especiais que podem ser usados ​​são $ (o cifrão) e _ (sublinhado).
+    </p>
+    <h2 class="TituloMundo">Onde as variáveis ​​são armazenadas?</h2>
+    <p class="mundop">
+        As variáveis, uma vez declaradas no programa, recebem espaço na memória. A própria memória é organizada como uma longa coleção de um byte após o outro. Esses bytes são numerados seqüencialmente, com o número sendo referido como um endereço de memória para o local correspondente. É costume usar números hexadecimais para mostrar os endereços dos locais de memória.
+
+        O valor de uma determinada variável é armazenado em algum local de memória. Referir-se a um dado usando seu endereço é tedioso, e é por isso que as linguagens de programação fornecem a abstração de se referir a cada dado com um nome de variável.
+    </p>
+    <h2 class="TituloMundo">Tamanho de uma variável?</h2>
+    <p class="mundop">
+        O número de locais ocupados por uma determinada variável fornece o tamanho da variável na memória. Por exemplo, um texto mais curto como “Olá!” ocupa menos memória do que um mais longo, como “Hello world!”. Os programas Java possuem diferentes tipos de dados que definem o espaço que uma variável ocupa. O menor espaço que uma variável pode ocupar é um tipo de dado chamado byte que ocupa um byte .
+    </p>
+    <h2 class="TituloMundo">Tipos de dados numéricos</h2>
+    <p class="mundop">
+        Numeros inteiros:<br>
+        Um número inteiro é um número inteiro ou seja, não possui casas decimais.<br>
+        Exemplos de um inteiro incluem 4, 5, 2000 , enquanto números que não são inteiros incluem 4,3 ou 4,55 . <br>
+        Dentro dos inteiros, existem diferentes tipos de dados que são baseados no espaço que ocupam na memória. Os tipos incluem short, int e long.
+
+    </p>
+    <h2 class="TituloMundo">Pontos flutuantes</h2>
+    <p class="mundop">
+        Este tipo de dados armazena números que incluem um ponto decimal.
+        <br>Portanto, eles incluirão números como 4,34 ou até 12233,333922.
+        <br>Tenha em mente que os pontos flutuantes armazenarão apenas uma aproximação do valor decimal e não o valor exato. <br>
+
+        Os pontos flutuantes têm dois tipos, floatse double.
+        <br>A principal diferença entre os dois é que doubleé capaz de armazenar mais casas após o ponto decimal com mais precisão do que float.
+        <br>O floattipo de dados é bom para a maioria dos aplicativos. 
+        <br> Mas, aplicações científicas que lidam com valores muito pequenos, como o raio de um átomo, ou valores muito grandes, como a distância entre duas galáxias, são mais fáceis de usar double.
+    </p>
+    <h2 class="TituloMundo">Tipos de dados de texto</h2>
+    <p class="mundop">
+        Essa classe de tipo de dados lida com dados que contêm caracteres. Os dados podem até ter um dígito armazenado; entretanto, este dígito não pode ser utilizado em cálculos aritméticos quando utilizado neste contexto.
+    </p>
+    <h2 class="TituloMundo"> Caractere / Char   </h2>
+        <p class="mundop"> A "char" um tipo primitivo que contém um único dígito ou um caractere.Cada caractere é representado por um número único de acordo com um código padrão como Unicode. 
+        <br> Veja um exemplo abaixo:</p>
+        <div class="img">
+            <img src="./imagens/java2.png" alt="Console java">
+        </div>
+    <h2 class="TituloMundo">
+        tipos de dados booleano
+    </h2>
+    <p class="mundop">
+        Este tipo de dados refere-se apenas a dois valores, true e false. 
+        <br> O valor padrão é falso. Para entender o uso desse tipo de dados, vamos considerar um exemplo.
+        <br> Suponhamos que temos um funcionário e precisamos armazenar detalhes como 'Esse funcionário possui carro', 'Esse funcionário trabalha meio período?' e assim por diante. Aqui podemos simplesmente armazenar os valores como 'true' ou 'false', tornando a variável mais fácil de entender e armazenar. Este exemplo é ilustrado no código abaixo.
+    </p>
+    <div class="img"> 
+        <img src="./imagens/java3.png" alt="Console java">
+    </div>
+    <h2 class="TituloMundo">Tipo de valor Null ou Nulo</h2>
+    <p class="mundop">
+        Null basicamente se refere a um valor que não se refere a nenhum objeto. 
+        <br> Confuso? Basicamente, tentamos representar um estado não inicializado usando o valor nulo. 
+        <br> Se tentarmos ler o valor de uma variável que ainda não foi atribuída em nosso programa, obteremos o valor Null.
+    </p>
+    <h2 class="TituloMundo">Declarando variáveis</h2>
+    <p class="mundop">O formato seguido para declarar uma variável é simples: <br>
+        "Tipo da variavel" "identificador dá variavel" <br>
+        Ex: String nome <br>
+        Cada variável que definimos deve conter alguns dados que ela descreve. Este dado é o valor da variável. Para inicializar uma variável, devemos igualá-la a um valor. Vejamos como isso é feito pelo exemplo de um trecho de código. <br>
+        String nome = "Gabriel"
+    </p>
+    <h2 class="TituloMundo">Declarando várias variáveis ​​ao mesmo tempo</h2>
+    <p class="mundop"> 
+        Ele permite que variáveis ​​do mesmo tipo de dados sejam criadas na mesma linha, conforme mostrado no exemplo abaixo. <br>
+        <div class="img">
+            <img src="./imagens/java 4.png" alt="Console java"> 
+            <br>
+            <br>
+            <br>
+        </div>
+    
+        
+        
+    </p>
+    <p class="mundop">Também pode declarar variáveis acompanhadas de seus respectivos valores ​​na mesma linha.</p> 
+    <div class="img">
+        <img src="./imagens/java5.png" alt="console java">
+    </div>
+    <h2 class="TituloMundo"> Entrada de valores do usuario </h2>
+    <p class="mundop">
+        Podemos atribuir valores a variáveis ​​por meio de constantes. No entanto, às vezes, gostaríamos que o usuário inserisse um valor para uma variável do teclado. <br>
+        Veja o código abaixo!
+        <div class="img">
+            <img src="./imagens/java6.png" alt="Console java">
+        </div>
+    
+    </p>
+    <h2 class="TituloMundo">
+        Entendendo o código
+    </h2>
+    <p class="mundop">
+        Uma maneira de receber a entrada do teclado em Java é usar a classe Scanner, que é usada primeiro importando a definição da classe como na linha 1 e depois criando um objeto dessa classe como na linha 5 . <br>
+        Linha 1: <br>
+        O primeiro passo é importar a classe Scanner para que possa ser usada no código abaixo. A classe Java Scanner é do pacote java.util.Scanner <br>
+        É fácil de usar, mas deve ser importado para que a classe funcione. O snippet abaixo mostra como importar a classe. <br>
+        A classe Scanner permite que o usuário receba entradas do usuário através do teclado.
+        <br>A entrada é quando uma mensagem é recebida pelo sistema diretamente do usuário. <br>
+        Linha 5 : <br>
+        - Declaramos o tipo de dados como Scannere damos a ele o seguinte identificadorscanner_one <br>
+        - Isso indica que o Scanner criado possui um método chamadonextLine() <br>
+        - Este método recebe a entrada do teclado do usuário até que o usuário pressione a tecla Enter
+
+    </p>
+    <h2 class="TituloMundo"> Desafio do Capitulo</h2>
+    <p class="mundop">
+        Declare uma variavel do tipo int, é de a ela o valor de 1000. <br>
+
+        Declare uma variavel do tipo float, é de a ela o valor de 15.395. <br> 
+
+        Declare uma variavel do tipo double, com o valor de 0.00000000000436365673. <br>
+
+        Declare uma variavel do tipo char, é de a ela o valor N. <br>
+
+        Declare uma variavel do tipo booleano, é de a ela o valor true. <br>
+    </p>
+        <a href="index3.html" class="buttonClass-proximo">Proximo</a>
+        <a href="index3.html" class="buttonClass-anterior">Anterior</a>
+    
+    
+</div>
+</html>

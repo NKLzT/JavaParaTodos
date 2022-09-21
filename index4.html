@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática e lógica simples
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <header>
+            <a href="index.html">
+             
+             <img class="logo"src="./imagens/226777.png" alt="">
+             <button class="btn2">
+                 <p class="header1">Java Para Todos</p>
+             </button>
+         </a>
+         <a href="https://nklzt.github.io/Links-Projeto/" class="contato">
+             Contato
+         </a>
+            </header>
+    </div>
+    <div>
+        <h2 class="TituloMundo">
+            Introdução
+        </h2>
+        <p class="mundop">
+            Matemática em Java é muito simples. Lembre-se de que as operações matemáticas Java seguem uma ordem específica, da mesma forma que a matemática do ensino médio.
+            <br> <br>
+
+Por exemplo, multiplicação e divisão têm precedência sobre adição e subtração. A ordem em que essas operações são avaliadas pode ser alterada usando parênteses .
+        </p>
+        <h2 class="TituloMundo">
+            Operadores em Java
+        </h2>
+        <p class="mundop">
+            Os operadores aritméticos em Java: 
+            <br>
+            <br>
+            
+            
+            <table border="1" class="tabela1">
+                <tr>
+                    <td> Operador </td>
+                    <td>Finalidade</td>
+                </tr>
+                <tr>
+                    <td>+</td>
+                    <td>Adicionar</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Subtrair</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Dividir</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Multipicar</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>Divisão sem resto</td>
+                </tr>
+                <tr>
+                    <td>++</td>
+                    <td>Incrementa o valor antes ou depois de ser ultilizado</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>Subtrai o valor antes ou depois de ser ultilizado</td>
+                </tr>
+            </table>
+            
+
+        </p>
+        
+        <h2 class="TituloMundo">
+            Precedência do operador
+        </h2>
+        <p class="mundop">
+            A precedência do operador especifica a ordem na qual as operações serão executadas, desde que a expressão contenha mais de um operador. Com operações matemáticas, a precedência segue a regra de BODMAS, que diz; Colchetes, Ordem, Divisão, Multiplicação, Adição e Subtração. Vejamos um exemplo abaixo para verificar isso! <br>
+            Para os propósitos desses exemplos, definiremos as seguintes variáveis; x=5 , y=10 , z=7 e w=6. 
+            <br> Agora vamos avaliar as expressões abaixo usando essas variáveis. <br>
+            (x - z) + y * y <br>
+
+            A parte que será avaliada primeiro é (x - z)como está entre colchetes e sairá como -2
+            <br> A segunda parte que será calculada é y * ycomo o BODMAS garante que a multiplicação seja feita antes da adição, nos dando a resposta 100
+            O passo final será -2 + 100nos dar a resposta 98
+            <br> w / y + (x * z) <br>
+            O primeiro passo a ser calculado é x * z, nos dando a resposta, 35 <br>
+            O segundo passo é a divisão, w / y. 
+            <br>Lembre-se de que, como as variáveis ​​são consideradas números inteiros, o resultado também será um número inteiro. 
+            <br> Portanto, a resposta será 0 (um tipo de dados int arredonda para o número mais baixo)
+            O último passo será a soma das duas respostas 0 + 35dando-nos o resultado 35
+        </p>   
+        <br>
+        <br>        
+    </div>
+    <div>
+        <div class="z">
+            <div>
+                <table border="1" class="tabela2">
+                    <tr>
+                        <td> Operador </td>
+                        <td>Descrição</td>
+                        <td>Associatividade</td>
+                    </tr>
+                    <tr>
+                        <td>+ , -</td>
+                        <td>Unário Mais e menos</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>! , ~</td>
+                        <td>NOT lógico e NOT bit a bit</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>=</td>
+                        <td>Atribuição direta</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>+=, -=</td>
+                        <td>    Atribuição por soma e diferença	</td>
+                        <td>    Direita para esquerda	</td>
+                    </tr>
+                    <tr>
+                        <td> *= , /= , %= </td>
+                        <td>Atribuição por produto, quociente e restante</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td> <<= , >>= </td>
+                        <td>Atribuição por deslocamento à esquerda bit a bit e deslocamento à direita</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>&= , ^= , =</td>
+                        <td>Atribuição por AND, XOR e OR bit a bit</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>++, --</td>
+                        <td>Incremento e decremento de sufixo/pós-fixo</td>
+                        <td>Direita para esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>* , / , %</td>
+                        <td>Multiplicação, divisão e resto</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>+ , -</td>
+                        <td>Atribuição por AND, XOR e OR bit a bit</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td> <<, >> </td>
+                        <td>Deslocamento à esquerda e deslocamento à direita bit a bit</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td> < , <= </td>
+                        <td>Para operadores relacionais</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>> , >=</td>
+                        <td>Para operadores relacionais</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>== , !=</td>
+                        <td>Para relacional</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>&</td>
+                        <td>E bit a bit</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>^</td>
+                        <td>XOR bit a bit (exclusivo ou)</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>&&</td>
+                        <td>E Lógico</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>||</td>
+                        <td>OU lógico</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+                    <tr>
+                        <td>|</td>
+                        <td>OU bit a bit (inclusive ou)</td>
+                        <td>Da esquerda para direita</td>
+                    </tr>
+    </div>
+    <div class="x"> 
+        <a href="index5.html" class="buttonClass-proximo">Proximo</a>
+        <a href="index3.html" class="buttonClass-anterior">Anterior</a>
+    </div>
+</body>
+</html>
